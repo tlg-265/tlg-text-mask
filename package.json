@@ -2,12 +2,18 @@
   "name": "tlg-text-mask",
   "description": "Forked from: https://github.com/text-mask/text-mask",
   "author": "Angel Hernandez",
-  "keywords": ["react", "text-mask"],
-  "version": "0.1.0",
+  "keywords": [
+    "react",
+    "text-mask"
+  ],
+  "version": "0.1.1",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
-  "files": [ "dist", "README.md" ],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tlg-265/tlg-text-mask"
@@ -47,6 +53,7 @@
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-react": "^7.16.7",
     "cross-env": "^7.0.3",
+    "terser-webpack-plugin": "^5.3.1",
     "webpack": "^5.71.0",
     "webpack-cli": "^4.9.2"
   }
